@@ -1,0 +1,112 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+
+
+
+body{
+    background-color:#8C3545;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:contain;
+    width:100vw;
+    height:100vh;
+}
+
+main{
+    position:relative;
+    width:100vw;
+    height:100vh;
+}
+
+section#login{
+    background-color:white;
+    width:300px;
+    height:500px;
+    border-radius:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    box-shadow:0px 1px 10px rgba(0, 0, 0, 0.45);
+    overflow:hidden; /* Tudo que estiver fora ficará escondido, permitindo o radius em cima */
+    transition:width .3s height .3s;
+    transition-timing-function:ease;
+}
+
+div#imagem{
+    background:black url("/pexels-tima-miroshnichenko-6914433.jpg") no-repeat center center;
+    background-size:cover;
+    height:200px;
+    display:block;
+}
+
+div#formulario{
+    padding:10px;
+    display:block;
+}
+
+#formulario h1{
+    color:#D9D9D9;
+    text-align:center;
+    margin-top:-6px;
+    font-size:1.5em;
+}
+
+#formulario p{
+    font-size:0.8em;
+    color:#261901;
+    text-align:justify;
+}
+
+form > input[type=button]{
+    display:block;
+    font-size:1em;
+    width:80%;
+    height:40px;
+    background-color:#D9BBA0;
+    margin:auto;
+    border-radius:10px;
+}
+
+form > input[type=button]:hover{
+    background-color: #400101;
+    color:white;
+}
+
+.nome{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.senha{
+   margin-bottom:15px;
+}
+
+input{
+    padding:8px;
+    border-radius:5px;
+    margin-bottom:10px;
+    width:80%;
+    display:block;
+    margin:auto;
+    height:40px;
+}
+
+form > p > a{
+    padding:10px;
+    display:block;
+    text-align:center;
+    color:#261901;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
