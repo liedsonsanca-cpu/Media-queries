@@ -39,7 +39,7 @@ section#login{
 }
 
 div#imagem{
-    background:black url("/pexels-tima-miroshnichenko-6914433.jpg") no-repeat center center;
+    background:black url("pexels-tima-miroshnichenko-6914433.jpg") no-repeat center center;
     background-size:cover;
     height:200px;
     display:block;
